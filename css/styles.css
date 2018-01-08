@@ -21,3 +21,47 @@ background-image: url("image.jpg");
 height: 400px;
 z-index: -1;
 }
+
+.letra {
+	color:  #145a32 ;
+}
+
+.navbar {
+border-radius: 0;
+position: fixed;
+width: 100%;
+padding: 0 20px;
+z-index: 100;
+}
+
+.jumbotron {
+padding:0 !important;
+margin:0;
+color: #777777;
+background: #F2F4F5;
+}
+
+.jumbotron h1 {
+color: #fa5950;
+font-size: 27px;
+}
+
+.section-padding {
+padding-top: 150px;
+}
+
+.grey {
+color:#777777;
+}
+
+.showcase-box {
+height: 200px;
+padding: 2px;
+}
+
+.showcase-item {
+color: #777777;
+padding: 40px;
+height: 100%;
+width: 100%;
+}
