@@ -2,26 +2,45 @@
 <html>
 <head>
   <title>Mike Gutierrez</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <meta charset="utf-8">
 </head>
-
 <body>
-<div class="container col-md-8 col-md-offset-2">
-  <nav class="navbar navbar-default" role="navigation">
+<div class="col-md-8 col-md-offset-2">
+<header>
+  <nav class = "navbar navbar-default" role = "navigation">
+    <!-- toogle para dispositivos moviles -->
     <div class="navbar-header">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="./">Home</a></li>
-        <li><a href="./about">About</a></li>
-        <li><a href="./contact">Contact</a></li>
+    <button type="button" class="navbar-toggle" data-toggle = "collapse" data-target = "#bs-example-navbar-collapse-1">
+      <span class="sr-only"> Toggle navigation </span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>      
+    <a class = "navbar-brand" href="/">Portafolio</a>
+    </div>
+    <!-- toogle para dispositivos moviles..fin-->
+
+    <!--colecta los items para el menu-->
+    <div class="collapse navbar-collapse" id = "bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class=""> <a href="./"> Incio </a></li>
+        <li class=""> <a href="./"> Sobre mi </a></li>        
       </ul>
     </div>
+    <!--colecta los items para el menu..fin-->
   </nav>
+</header>
 </div>
-
-
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!--seccion principal-->
+<section class="header">
+  <div class="background">
+    
+  </div>  
+</section>
+<!--seccion principal...fin-->
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
