@@ -1,46 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Mike Gutierrez</title>
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <title>Programador</title>
   <meta charset="utf-8">
+  <!-- Compressed CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.3/dist/css/foundation.min.css" integrity="sha256-xpOKVlYXzQ3P03j397+jWFZLMBXLES3IiryeClgU5og= sha384-gP4DhqyoT9b1vaikoHi9XQ8If7UNLO73JFOOlQV1RATrA7D0O7TjJZifac6NwPps sha512-AKwIib1E+xDeXe0tCgbc9uSvPwVYl6Awj7xl0FoaPFostZHOuDQ1abnDNCYtxL/HWEnVOMrFyf91TDgLPi9pNg==" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-<div class="col-md-8 col-md-offset-2">
-<header>
-  <nav class = "navbar navbar-default" role = "navigation">
-    <!-- toogle para dispositivos moviles -->
-    <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle = "collapse" data-target = "#bs-example-navbar-collapse-1">
-      <span class="sr-only"> Toggle navigation </span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-      <span class="icon-bar"></span>
-    </button>      
-    <a class = "navbar-brand" href="/">Portafolio</a>
-    </div>
-    <!-- toogle para dispositivos moviles..fin-->
 
-    <!--colecta los items para el menu-->
-    <div class="collapse navbar-collapse" id = "bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li class=""> <a href="./"> Incio </a></li>
-        <li class=""> <a href="./"> Sobre mi </a></li>        
-      </ul>
-    </div>
-    <!--colecta los items para el menu..fin-->
-  </nav>
-</header>
-</div>
-<!--seccion principal-->
-<section class="header">
-  <div class="background">
+
+
+<section class="slide mp" data-section-name="1">
+  <div class="main-content">
     
-  </div>  
+      <div class="content">
+        <div class="img-c">
+          <img src="images/mik.jpg">
+        </div>
+        <div class="">
+          <h1>Mike  Talavera </h1>
+          <h3>Programador</h3>
+        </div>
+        <i class="fas fa-angle-down" style="color:white; font-size: 45px"></i>
+      </div>
+  </div>
 </section>
-<!--seccion principal...fin-->
-<script src="js/jquery-2.1.4.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+
+
+<section class="slide mp-1" data-section-name="2">
+  <div class="main-content-1">
+        <h1 class="pr">Habilidades</h1>
+        <ul>
+          <li>Java</li>
+          <li>Php</li>
+          <li>Jquery</li>
+          <li>Javascript</li>
+          <li>Html5</li>
+          <li>Css</li>
+          <li>Mysql</li>
+          <li>Linux</li>
+        </ul>
+  </div>
+</section>
+
+<!-- Compressed JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.3/dist/js/foundation.min.js" integrity="sha256-/PFxCnsMh+nTuM0k3VJCRch1gwnCfKjaP8rJNq5SoBg= sha384-9ksAFjQjZnpqt6VtpjMjlp2S0qrGbcwF/rvrLUg2vciMhwc1UJJeAAOLuJ96w+Nj sha512-UMSn6RHqqJeJcIfV1eS2tPKCjzaHkU/KqgAnQ7Nzn0mLicFxaVhm9vq7zG5+0LALt15j1ljlg8Fp9PT1VGNmDw==" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.19/jquery.scrollify.min.js"></script>
+
+<script type="text/javascript">
+  $.scrollify({
+    section : ".slide",
+    interstitialSection : ".header, .footer",
+  });
+</script>
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
